@@ -1,14 +1,53 @@
-<html>
-  <head>
-    <title>Nueva pagina para formularios</title>
-  </head>
-  <body>
-    <h1>Campos nuevos a utilizar</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pagina para formularios</title>
+</head>
+<body>
+  <h1>Campos nuevos a utilizar</h1>
     <form>
-      <label>Nombre</label>
-      <input type="text">
+      <label for="nombre">Nombre</label>
+      <input type="text" name="nombre" id="nombre">
+      <br>
+      <br>
+      <!--Cambio para validar URL-->
+      <Label for="url">Link de mi pagina web</Label>
+      <input type="url" name="url" id="url">
 
+      <br>
+      <br>
+      <!--Campo para validar el correco electronico-->
+        <label for="correo_electronico">
+          Correo de la escuela
+        </label>
+        <input type="email" name="correo_electronico" id="correo_electronico">
+
+        <br>
+        <br>
+        <!--Campo para validar contraseña-->
+        <label for="contrasenia">Escribe tu contrasenia</label>
+        <input type="password" name="contrasenia" id="contrasenia">
+        <br>
+        <br>
+        <hr>
       <button> Enviar informacion</button>
     </form>
-  </body>
+  
+</body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
